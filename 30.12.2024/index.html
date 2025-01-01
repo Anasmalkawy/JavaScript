@@ -24,8 +24,8 @@
       var indexBanana = fruits.indexOf("Banana");
       var indexTomato = fruits.indexOf("Tomato");
 
-      console.log("Index of Banana:", indexBanana);
-      console.log("Index of Tomato:", indexTomato);
+      console.log(indexBanana);
+      console.log(indexTomato);
       //  4
       var firstOfArray = ["t", "u", "g", "x"];
       console.log(firstOfArray[0]);
@@ -39,10 +39,8 @@
       array.pop();
       array.pop();
       array.pop();
-      array.pop();
-      array.push(3, 4, 6, 8, 9, 10);
-      // 6
-      for (let index = 0; index <= array.length; index++) {
+      array.push(4, 6, 8, 9, 10);
+      for (let index = 0; index <= array.length-1; index++) {
         console.log(array[index]);
       }
       // 7
@@ -69,27 +67,25 @@
           console.log(a);
         }
       }
-      rate(77);
+      rate(66);
       // 10
       let i = 1;
       for (let index = 0; index <= 8; index++) {
         for (let j = 1; j < i; j++) {
-          document.write(j);
+          document.write(j + "");
         }
         document.write("<div>");
 
         i++;
       }
-      // 11 
-      let u=1;
+      // 11
+      let u = 1;
       function sum1(num1) {
         for (let j = 1; j <= num1; j++) {
-          u*=j;
+          u *= j;
 
-          
           console.log(u);
         }
-        
       }
       sum1(5);
       /////////end
