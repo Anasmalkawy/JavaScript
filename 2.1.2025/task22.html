@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function scoreInUniversity(score) {
+        if (score >= 95 && score <= 100) {
+          return "A";
+        } else if (score >= 85 && score <= 94) {
+          return "B";
+        } else if (score >= 70 && score <= 84) {
+          return "C";
+        } else if (score >= 50 && score <= 69) {
+          return "D";
+        } else if (score >= 0 && score <= 49) {
+          return "F";
+        } else {
+          return "none";
+        }
+      }
+
+      document.write(scoreInUniversity(96));
+    </script>
+  </body>
+</html>
