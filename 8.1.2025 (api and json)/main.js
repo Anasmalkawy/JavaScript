@@ -3,7 +3,8 @@ async function disdata1() {
   const response = await fetch(url);
     const data = await response.json();
     const outputDiv = document.getElementById('output');
-
+    outputDiv.innerHTML="";
+    
 
     for (const user of data) {
         const userCard = document.createElement('div');
@@ -26,7 +27,7 @@ async function disdata2() {
   const response1 = await fetch('data.json');
     const data1 = await response1.json();
     const outputDiv1 = document.getElementById('output1');
-
+    outputDiv1.innerHTML="";
 
     for (const user1 of data1) {
         const userCard = document.createElement('div');
