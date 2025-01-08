@@ -1,0 +1,9 @@
+[
+
+{"age":25,"name":"John local","email":"john.doe@example.com","profession":"Software Engineer"},
+{"age":28,"name":"Jane local","email":"jane.smith@example.com","profession":"Graphic Designer"},
+{"age":30,"name":"Bob local","email":"bob.johnson@example.com","profession":"Data Analyst"},
+{"age":27,"name":"Alice local","email":"alice.williams@example.com","profession":"Product Manager"},
+{"age":32,"name":"Michael local","email":"michael.brown@example.com","profession":"Marketing Specialist"}
+
+]
